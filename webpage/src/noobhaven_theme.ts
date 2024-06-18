@@ -98,6 +98,5 @@ export const noobhaven_theme: CustomThemeConfig = {
 		"--color-surface-700": "11 11 11", // #0b0b0b
 		"--color-surface-800": "8 8 8", // #080808
 		"--color-surface-900": "7 7 7", // #070707
-		
 	}
 }
