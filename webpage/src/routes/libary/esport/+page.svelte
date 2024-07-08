@@ -2,13 +2,12 @@
 
 </script>
 
-<main class="">
-	<div>
-		<p>Homepage Content</p>
-		
-	</div>
+<main>
+    <div class="container">
+
+    </div>
 </main>
 
 <style lang="postcss">
-	
+    
 </style>

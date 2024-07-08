@@ -26,7 +26,7 @@
     ];
 </script>
 
-<div class="sidebarLeft w-80 h-full">
+<div class="sidebarLeft w-80 h-full lg:block hidden">
     <div class="content py-5 flex justify-between items-center flex-col h-full">
         <div>
             <div class="logo flex items-center relative top-5">
