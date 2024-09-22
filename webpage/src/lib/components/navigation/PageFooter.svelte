@@ -50,5 +50,5 @@
 </div>
 
 <style lang="postcss">
-    /* Tailwind CSS ist bereits responsiv. Falls spezifische Anpassungen nötig sind, können diese hier eingefügt werden. */
+    
 </style>

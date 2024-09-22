@@ -7,8 +7,6 @@
 	import SidebarLeft from '$lib/components/navigation/SidebarLeft.svelte';
 	import SidebarRight from '$lib/components/navigation/SidebarRight.svelte';
 	import Toast from '$lib/components/toast/Toast.svelte';
-	import { customizeRouteData } from '$lib/functions/locationData';
-	customizeRouteData();
 
 	// Highlight JS
 	import hljs from 'highlight.js/lib/core';
