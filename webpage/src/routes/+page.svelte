@@ -2,9 +2,8 @@
 
 </script>
 
-<main class="">
-	<div>
-		<p>Homepage Content</p>
+<main>
+	<div class="container">
 		
 	</div>
 </main>

@@ -28,6 +28,16 @@
 	import { storePopup } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 	initializeStores();
+
+	// Handle current route
+	import { currentRoute } from '$lib/store';
+	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
+	let activeRoute: string = '/';
+	$: $page.url.pathname, activeRoute = $page.url.pathname;
+	onMount(() => {
+        currentRoute.set(activeRoute);
+    });
 </script>
 
 <svelte:head>
